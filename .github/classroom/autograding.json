@@ -1,0 +1,44 @@
+{
+  "tests": [
+    {
+      "name": "1",
+      "setup": "make main",
+      "run": "./main",
+      "input": "5",
+      "output": "  *\r\n ***\r\n*****\r\n ***\r\n  *",
+      "comparison": "included",
+      "timeout": 1,
+      "points": 25
+    },
+    {
+      "name": "2",
+      "setup": "make main",
+      "run": "./main",
+      "input": "6\r\n7",
+      "output": "Lebar haruslah bilangan ganjil!",
+      "comparison": "included",
+      "timeout": 1,
+      "points": 25
+    },
+    {
+      "name": "3",
+      "setup": "make main",
+      "run": "./main",
+      "input": "6\r\n7",
+      "output": "   *\r\n  ***\r\n *****\r\n*******\r\n *****\r\n  ***\r\n   *",
+      "comparison": "included",
+      "timeout": 10,
+      "points": 25
+    },
+    {
+      "name": "4",
+      "setup": "make main",
+      "run": "./main",
+      "input": "11",
+      "output": "     *\r\n    ***\r\n   *****\r\n  *******\r\n *********\r\n***********\r\n ********* \r\n  *******  \r\n   *****   \r\n    ***\r\n     *",
+      "comparison": "included",
+      "timeout": 10,
+      "points": 25
+    }
+  ]
+}
