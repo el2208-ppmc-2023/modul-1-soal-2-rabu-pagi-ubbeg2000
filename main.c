@@ -11,9 +11,50 @@
 
 int main()
 {
+    int lebar;
     printf("Masukkan lebar (ganjil): ");
-    printf("Lebar haruslah bilangan ganjil!\n\n");
-    printf("Masukkan lebar (ganjil): ");
+
+    scanf("%d", &lebar);
+    while (lebar % 2 != 1)
+    {
+        printf("Lebar haruslah bilangan ganjil!\n\n");
+        printf("Masukkan lebar (ganjil): ");
+        scanf("%d", &lebar);
+    }
+
+    for (int i = 0; i <= (lebar - 1) / 2; i++)
+    {
+        for (int j = 0; j < lebar; j++)
+        {
+            if (j >= (lebar - 1) / 2 - i && j <= (lebar - 1) / 2 + i)
+            {
+                printf("*");
+            }
+            else
+            {
+                printf(" ");
+            }
+        }
+
+        printf("\n");
+    }
+    for (int i = (lebar - 1) / 2 - 1; i >= 0; i--)
+    {
+        for (int j = 0; j < lebar; j++)
+        {
+            if (j >= (lebar - 1) / 2 - i && j <= (lebar - 1) / 2 + i)
+            {
+                printf("*");
+            }
+            else
+            {
+                printf(" ");
+            }
+        }
+
+        printf("\n");
+    }
 
     return 0;
 }
+
