@@ -5,7 +5,7 @@
       "setup": "make main",
       "run": "./main",
       "input": "5",
-      "output": "  *\r\n ***\r\n*****\r\n ***\r\n  *",
+      "output": "  *  \r\n *** \r\n*****\r\n *** \r\n  *  ",
       "comparison": "included",
       "timeout": 1,
       "points": 25
@@ -25,7 +25,7 @@
       "setup": "make main",
       "run": "./main",
       "input": "6\r\n7",
-      "output": "   *\r\n  ***\r\n *****\r\n*******\r\n *****\r\n  ***\r\n   *",
+      "output": "   *   \r\n  ***  \r\n ***** \r\n*******\r\n ***** \r\n  ***  \r\n   *   ",
       "comparison": "included",
       "timeout": 10,
       "points": 25
@@ -35,7 +35,7 @@
       "setup": "make main",
       "run": "./main",
       "input": "11",
-      "output": "     *\r\n    ***\r\n   *****\r\n  *******\r\n *********\r\n***********\r\n ********* \r\n  *******  \r\n   *****   \r\n    ***\r\n     *",
+      "output": "     *     \r\n    ***    \r\n   *****   \r\n  *******  \r\n ********* \r\n***********\r\n ********* \r\n  *******  \r\n   *****   \r\n    ***    \r\n     *     ",
       "comparison": "included",
       "timeout": 10,
       "points": 25
